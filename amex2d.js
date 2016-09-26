@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
-    $.getScript('https://googledrive.com/host/0B34UH6mwviedRHVIU0tfTG43Wm8/pdf417-js-master/bcmath-min.js', function() {
-        $.getScript('https://googledrive.com/host/0B34UH6mwviedRHVIU0tfTG43Wm8/pdf417-js-master/pdf417-min.js', function() {
+    $.getScript('https://raw.githubusercontent.com/matkomat/bookmarklets/master/pdf417-js-master/bcmath-min.js', function() {
+        $.getScript('https://raw.githubusercontent.com/matkomat/bookmarklets/master/pdf417-js-master/pdf417-min.js', function() {
 
             var $a = $('body > table > tbody > tr:nth-child(3) > td > table > tbody > tr:nth-child(4) > td.leftbg > table > tbody > tr:nth-child(1) > td > table:nth-child(2) > tbody > tr:nth-child(1) > td > span > a:nth-child(2)');
             var oc = $a.attr('onclick');

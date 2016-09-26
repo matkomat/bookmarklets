@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
     $.getScript('https://raw.githubusercontent.com/matkomat/bookmarklets/master/pdf417-js-master/bcmath-min.js', function() {
-        $.getScript('https://raw.githubusercontent.com/matkomat/bookmarklets/master/pdf417-js-master/pdf417-min.js', function() {
+        $.getScript('https://rawgit.com/matkomat/bookmarklets/master/pdf417-js-master/pdf417-min.js', function() {
             var drawBarCode = function (opis) {
                 var document = window.document.getElementById('invoiceIframe').contentDocument;
                 var container = document.getElementById('barcode');

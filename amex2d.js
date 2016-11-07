@@ -106,7 +106,7 @@ $(document).ready(function() {
                   out += primateljIme;
                   out += '\n';
                   out += primateljAdresa;
-                  out += '\n';
+                  //out += '\n';
                   out += '\n';
                   out += iban;
                   out += '\n';

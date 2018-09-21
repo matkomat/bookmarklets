@@ -1,6 +1,6 @@
 (function() {
     var fillData = {
-      salutation: 2; // 2-boy, 1-girl
+      salutation: 2, // 2-boy, 1-girl
       firstname: 'Matko',
       lastname: 'Anđelinić',
       email: 'matko.andjelinic@gmail.com',

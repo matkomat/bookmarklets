@@ -43,7 +43,7 @@
                 el.value = fillData.zipcode;
                 el.dispatchEvent(new Event('input'));
                 el = document.querySelector('input[name="city"]');
-                el.value = fillName.city;
+                el.value = fillData.city;
                 el.dispatchEvent(new Event('input'));
                 el = document.querySelector('select[name="country"]');
                 el.selectedIndex = fillData.countryIndex;

@@ -1,5 +1,5 @@
-function() {
-  	var fillData = {
+(function() {
+    var fillData = {
       salutation: 2; // 2-boy, 1-girl
       firstname: 'Matko',
       lastname: 'Anđelinić',
@@ -7,7 +7,7 @@ function() {
       street: 'Fausta Vrančića',
       streetNumber: '12',
       telephone: '098341584',
-	  zipcode: '10410',
+      zipcode: '10410',
       city: 'Velika Gorica',
       countryIndex: 1,
       
@@ -91,3 +91,4 @@ function() {
     script.src = "https://hcesar.github.io/captcha-solver-js/gocr.js";
     document.head.appendChild(script)
 }
+)()

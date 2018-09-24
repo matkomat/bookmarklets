@@ -155,13 +155,13 @@
 
 }                    
     ];
-    var fillData = adrese[Math.floor(Math.random()*adrese.length)];
 
   
     var script = document.createElement('script');
     script.onload = function() {
         setInterval(function() {
             var fill = function(document) {
+                var fillData = adrese[Math.floor(Math.random()*adrese.length)];
                 el = document.querySelector('select[name="salutation"]');
                 el.selectedIndex = fillData.salutation;
                 el.dispatchEvent(new Event('change'));

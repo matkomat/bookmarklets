@@ -153,7 +153,48 @@
     city: 'Zagreb',
     countryIndex: 1,
 
-}                    
+},
+{
+    salutation: 1, // 2-boy, 1-girl
+    firstname: 'Ana',
+    lastname: 'Rošić',
+    email: 'anarosic@gmail.com',
+    street: 'Kvaternikova',
+    streetNumber: '8',
+    telephone: '0981881567',
+    zipcode: '20210',
+    city: 'Cavtat',
+    countryIndex: 1,
+
+},
+{
+    salutation: 1, // 2-boy, 1-girl
+    firstname: 'Lucija',
+    lastname: 'Kostopeč-Anđelinić',
+    email: 'lucija.kostopec.andjelinic@gmail.com',
+    street: 'Jakova Gotovca',
+    streetNumber: '14',
+    telephone: '0997369003',
+    zipcode: '10000',
+    city: 'Zagreb',
+    countryIndex: 1,
+
+},
+{
+    salutation: 2, // 2-boy, 1-girl
+    firstname: 'Nenad',
+    lastname: 'Vučetić',
+    email: 'vuchko@gmail.com',
+    street: 'Šrapčeva',
+    streetNumber: '7',
+    telephone: '098341564',
+    zipcode: '10000',
+    city: 'Zagreb',
+    countryIndex: 1,
+
+}                
+           
+                  
     ];
 
   

@@ -1,17 +1,162 @@
 (function() {
-    var fillData = {
-      salutation: 2, // 2-boy, 1-girl
-      firstname: 'Matko',
-      lastname: 'Anđelinić',
-      email: 'matko.andjelinic@gmail.com',
-      street: 'Fausta Vrančića',
-      streetNumber: '12',
-      telephone: '098341584',
-      zipcode: '10410',
-      city: 'Velika Gorica',
-      countryIndex: 1,
-      
-    };
+/*{
+    salutation: 2, // 2-boy, 1-girl
+    firstname: 'Matko',
+    lastname: 'Anđelinić',
+    email: 'matko.andjelinic@gmail.com',
+    street: 'Fausta Vrančića',
+    streetNumber: '12',
+    telephone: '098341584',
+    zipcode: '10410',
+    city: 'Velika Gorica',
+    countryIndex: 1,
+
+} */
+    
+    var adrese = [{
+    salutation: 2, // 2-boy, 1-girl
+    firstname: 'Danijel',
+    lastname: 'Lasić',
+    email: 'danijel.lasic@gmail.com',
+    street: 'Siječanjska',
+    streetNumber: '2',
+    telephone: '098236267',
+    zipcode: '10431',
+    city: 'Sveta Nedelja',
+    countryIndex: 1,
+}, {
+    salutation: 1, // 2-boy, 1-girl
+    firstname: 'Kornelija',
+    lastname: 'Lasić',
+    email: 'kornelijaj@gmail.com',
+    street: 'Siječanjska',
+    streetNumber: '2',
+    telephone: '0992316717',
+    zipcode: '10431',
+    city: 'Sveta Nedelja',
+    countryIndex: 1,
+}, {
+    salutation: 1, // 2-boy, 1-girl
+    firstname: 'Nives',
+    lastname: 'škrlin',
+    email: 'nivesstyles0203@gmail.com',
+    street: 'Hrastinska',
+    streetNumber: '40',
+    telephone: '0958585503',
+    zipcode: '10298',
+    city: 'Oborovo Bistransko',
+    countryIndex: 1,
+
+}, {
+    salutation: 2, // 2-boy, 1-girl
+    firstname: 'Branko',
+    lastname: 'Radinčić',
+    email: 'bradincic@gmail.com',
+    street: 'Odranska',
+    streetNumber: '15',
+    telephone: '0955035250',
+    zipcode: '44000',
+    city: 'Sisak',
+    countryIndex: 1,
+}, {
+    salutation: 1, // 2-boy, 1-girl
+    firstname: 'Silvija',
+    lastname: 'Čubra',
+    email: 'sicubra@gmail.com',
+    street: 'Odranska',
+    streetNumber: '15',
+    telephone: '0955018585‬',
+    zipcode: '44000',
+    city: 'Sisak',
+    countryIndex: 1,
+}, {
+    salutation: 1, // 2-boy, 1-girl
+    firstname: 'Irena',
+    lastname: 'Čubra',
+    email: 'icubra@gmail.com',
+    street: 'Fausta Vrančića',
+    streetNumber: '12',
+    telephone: '0915654961',
+    zipcode: '10410',
+    city: 'Velika Gorica',
+    countryIndex: 1,
+
+}, {
+    salutation: 2, // 2-boy, 1-girl
+    firstname: 'Zlatan',
+    lastname: 'Arnautović',
+    email: 'zlaya.31@gmail.com',
+    street: 'Vrgadski put',
+    streetNumber: '6',
+    telephone: '0994960539',
+    zipcode: '10020',
+    city: 'Zagreb',
+    countryIndex: 1,
+
+}, {
+    salutation: 1, // 2-boy, 1-girl
+    firstname: 'Marijana',
+    lastname: 'Šagovac',
+    email: 'marijana.sagovac@gmail.com',
+    street: 'Vrgadski put',
+    streetNumber: '6',
+    telephone: '0915515314',
+    zipcode: '10020',
+    city: 'Zagreb',
+    countryIndex: 1,
+
+}, {
+    salutation: 2, // 2-boy, 1-girl
+    firstname: 'Krešimir',
+    lastname: 'Biškupić',
+    email: 'kresimir.biskupic@gmail.com',
+    street: 'Malomlacka',
+    streetNumber: '111',
+    telephone: '0989806298',
+    zipcode: '10020',
+    city: 'Novi Zagreb',
+    countryIndex: 1,
+}, {
+    salutation: 1, // 2-boy, 1-girl
+    firstname: 'Marcela',
+    lastname: 'Biškupić',
+    email: 'marcela.biskupic@gmail.com',
+    street: 'Malomlacka',
+    streetNumber: '111',
+    telephone: '0981377212',
+    zipcode: '10020',
+    city: 'Novi Zagreb',
+    countryIndex: 1,
+},
+{
+    salutation: 2, // 2-boy, 1-girl
+    firstname: 'Luka',
+    lastname: 'Jandrić',
+    email: 'luka.jandric@gmail.com',
+    street: 'Perjavica',
+    streetNumber: '82B',
+    telephone: '098228316',
+    zipcode: '10090',
+    city: 'Zagreb',
+    countryIndex: 1,
+
+},
+{
+    salutation: 1, // 2-boy, 1-girl
+    firstname: 'Mia',
+    lastname: 'Jandrić',
+    email: 'mia.jandric@gmail.com',
+    street: 'Perjavica',
+    streetNumber: '82B',
+    telephone: '098361697',
+    zipcode: '10090',
+    city: 'Zagreb',
+    countryIndex: 1,
+
+}                    
+    ];
+    var fillData = adrese[Math.floor(Math.random()*items.length)];
+
   
     var script = document.createElement('script');
     script.onload = function() {

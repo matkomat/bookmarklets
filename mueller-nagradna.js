@@ -163,7 +163,7 @@
         setInterval(function() {
             var fill = function(document) {
                 el = document.querySelector('select[name="salutation"]');
-                el.selectedIndex = 2;
+                el.selectedIndex = fillData.salutation;
                 el.dispatchEvent(new Event('change'));
                 var el;
                 el = document.querySelector('input[name="firstname"]');

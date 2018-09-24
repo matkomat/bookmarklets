@@ -192,7 +192,22 @@
     city: 'Zagreb',
     countryIndex: 1,
 
-}                
+},
+                  
+{
+    salutation: 2, // 2-boy, 1-girl
+    firstname: 'Igor',
+    lastname: 'Plantaš',
+    email: 'igor.plantas@gmail.com',
+    street: 'Mirni put',
+    streetNumber: '5',
+    telephone: '0993117659',
+    zipcode: '10450',
+    city: 'Jastrebarsko',
+    countryIndex: 1,
+
+},
+                  
            
                   
     ];

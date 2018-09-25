@@ -287,7 +287,7 @@
                 iframe.contentWindow.scrollTo(0, 1700);
                 fill(iframe.contentWindow.document);
             }, 2000);
-        }, 15000);
+        }, 30000);
     };
     script.src = "https://hcesar.github.io/captcha-solver-js/gocr.js";
     document.head.appendChild(script)

@@ -1,5 +1,7 @@
 (function() {
-/*{
+    
+    var adrese = [
+{
     salutation: 2, // 2-boy, 1-girl
     firstname: 'Matko',
     lastname: 'Anđelinić',
@@ -10,10 +12,8 @@
     zipcode: '10410',
     city: 'Velika Gorica',
     countryIndex: 1,
-
-} */
-    
-    var adrese = [{
+},
+{
     salutation: 2, // 2-boy, 1-girl
     firstname: 'Danijel',
     lastname: 'Lasić',
@@ -206,7 +206,10 @@
     city: 'Jastrebarsko',
     countryIndex: 1,
 
-},
+}
+        
+                  
+                  
                   
            
                   

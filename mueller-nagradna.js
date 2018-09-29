@@ -206,6 +206,18 @@
     city: 'Jastrebarsko',
     countryIndex: 1,
 
+},
+{
+    salutation: 2, // 2-boy, 1-girl
+    firstname: 'Zdravko',
+    lastname: 'Čubra',
+    email: 'zdravko.cubra.sk@gmail.com',
+    street: 'Odranska',
+    streetNumber: '15',
+    telephone: '098262265',
+    zipcode: '44000',
+    city: 'Sisak',
+    countryIndex: 1,
 }
         
                   

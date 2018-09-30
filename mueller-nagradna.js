@@ -218,7 +218,31 @@
     zipcode: '44000',
     city: 'Sisak',
     countryIndex: 1,
-}
+},
+{
+    salutation: 1, // 2-boy, 1-girl
+    firstname: 'Katja',
+    lastname: 'Radinčić',
+    email: 'katja2007sk@gmail.com',
+    street: 'Odranska',
+    streetNumber: '15',
+    telephone: '0957321020‬',
+    zipcode: '44000',
+    city: 'Sisak',
+    countryIndex: 1,
+ }, {
+    salutation: 1, // 2-boy, 1-girl
+    firstname: 'Nina',
+    lastname: 'Anđelinić',
+    email: 'nina.matkova.irenina@gmail.com',
+    street: 'Fausta Vrančića',
+    streetNumber: '12',
+    telephone: '0981883755‬',
+    zipcode: '10410',
+    city: 'Velika Gorica',
+    countryIndex: 1,
+ }
+    
         
                   
                   

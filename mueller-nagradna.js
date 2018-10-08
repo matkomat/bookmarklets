@@ -12,7 +12,7 @@
     zipcode: '10410',
     city: 'Velika Gorica',
     countryIndex: 1,
-},
+}/*,
 {
     salutation: 2, // 2-boy, 1-girl
     firstname: 'Danijel',
@@ -35,53 +35,8 @@
     zipcode: '10431',
     city: 'Sveta Nedelja',
     countryIndex: 1,
-}, {
-    salutation: 1, // 2-boy, 1-girl
-    firstname: 'Nives',
-    lastname: 'škrlin',
-    email: 'nivesstyles0203@gmail.com',
-    street: 'Hrastinska',
-    streetNumber: '40',
-    telephone: '0958585503',
-    zipcode: '10298',
-    city: 'Oborovo Bistransko',
-    countryIndex: 1,
-
-}, {
-    salutation: 2, // 2-boy, 1-girl
-    firstname: 'Branko',
-    lastname: 'Radinčić',
-    email: 'bradincic@gmail.com',
-    street: 'Odranska',
-    streetNumber: '15',
-    telephone: '0955035250',
-    zipcode: '44000',
-    city: 'Sisak',
-    countryIndex: 1,
-}, {
-    salutation: 1, // 2-boy, 1-girl
-    firstname: 'Silvija',
-    lastname: 'Čubra',
-    email: 'sicubra@gmail.com',
-    street: 'Odranska',
-    streetNumber: '15',
-    telephone: '0955018585‬',
-    zipcode: '44000',
-    city: 'Sisak',
-    countryIndex: 1,
-}, {
-    salutation: 1, // 2-boy, 1-girl
-    firstname: 'Irena',
-    lastname: 'Čubra',
-    email: 'icubra@gmail.com',
-    street: 'Fausta Vrančića',
-    streetNumber: '12',
-    telephone: '0915654961',
-    zipcode: '10410',
-    city: 'Velika Gorica',
-    countryIndex: 1,
-
-}, {
+} 
+, {
     salutation: 2, // 2-boy, 1-girl
     firstname: 'Zlatan',
     lastname: 'Arnautović',
@@ -155,32 +110,6 @@
 
 },
 {
-    salutation: 1, // 2-boy, 1-girl
-    firstname: 'Ana',
-    lastname: 'Rošić',
-    email: 'anarosic@gmail.com',
-    street: 'Kvaternikova',
-    streetNumber: '8',
-    telephone: '0981881567',
-    zipcode: '20210',
-    city: 'Cavtat',
-    countryIndex: 1,
-
-},
-{
-    salutation: 1, // 2-boy, 1-girl
-    firstname: 'Lucija',
-    lastname: 'Kostopeč-Anđelinić',
-    email: 'lucija.kostopec.andjelinic@gmail.com',
-    street: 'Jakova Gotovca',
-    streetNumber: '14',
-    telephone: '0997369003',
-    zipcode: '10000',
-    city: 'Zagreb',
-    countryIndex: 1,
-
-},
-{
     salutation: 2, // 2-boy, 1-girl
     firstname: 'Nenad',
     lastname: 'Vučetić',
@@ -204,6 +133,78 @@
     telephone: '0993117659',
     zipcode: '10450',
     city: 'Jastrebarsko',
+    countryIndex: 1,
+
+},
+{
+    salutation: 1, // 2-boy, 1-girl
+    firstname: 'Ana',
+    lastname: 'Rošić',
+    email: 'anarosic@gmail.com',
+    street: 'Kvaternikova',
+    streetNumber: '8',
+    telephone: '0981881567',
+    zipcode: '20210',
+    city: 'Cavtat',
+    countryIndex: 1,
+
+}*/,
+{
+    salutation: 1, // 2-boy, 1-girl
+    firstname: 'Lucija',
+    lastname: 'Kostopeč-Anđelinić',
+    email: 'lucija.kostopec.andjelinic@gmail.com',
+    street: 'Jakova Gotovca',
+    streetNumber: '14',
+    telephone: '0997369003',
+    zipcode: '10000',
+    city: 'Zagreb',
+    countryIndex: 1,
+
+}, {
+    salutation: 1, // 2-boy, 1-girl
+    firstname: 'Nives',
+    lastname: 'škrlin',
+    email: 'nivesstyles0203@gmail.com',
+    street: 'Hrastinska',
+    streetNumber: '40',
+    telephone: '0958585503',
+    zipcode: '10298',
+    city: 'Oborovo Bistransko',
+    countryIndex: 1,
+
+}, {
+    salutation: 2, // 2-boy, 1-girl
+    firstname: 'Branko',
+    lastname: 'Radinčić',
+    email: 'bradincic@gmail.com',
+    street: 'Odranska',
+    streetNumber: '15',
+    telephone: '0955035250',
+    zipcode: '44000',
+    city: 'Sisak',
+    countryIndex: 1,
+}, {
+    salutation: 1, // 2-boy, 1-girl
+    firstname: 'Silvija',
+    lastname: 'Čubra',
+    email: 'sicubra@gmail.com',
+    street: 'Odranska',
+    streetNumber: '15',
+    telephone: '0955018585‬',
+    zipcode: '44000',
+    city: 'Sisak',
+    countryIndex: 1,
+}, {
+    salutation: 1, // 2-boy, 1-girl
+    firstname: 'Irena',
+    lastname: 'Čubra',
+    email: 'icubra@gmail.com',
+    street: 'Fausta Vrančića',
+    streetNumber: '12',
+    telephone: '0915654961',
+    zipcode: '10410',
+    city: 'Velika Gorica',
     countryIndex: 1,
 
 },
@@ -326,7 +327,7 @@
                 iframe.contentWindow.scrollTo(0, 1700);
                 fill(iframe.contentWindow.document);
             }, 2000);
-        }, 30000);
+        }, 20000);
     };
     script.src = "https://hcesar.github.io/captcha-solver-js/gocr.js";
     document.head.appendChild(script)

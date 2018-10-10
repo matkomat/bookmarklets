@@ -308,8 +308,8 @@
                     if (text.match(/_/) == '_') return;
                     setTimeout(function() {
                         document.querySelector('button.mu-button').click()
-                    }, 4000);
-                }, 20000);
+                    }, 10000);
+                }, 40000);
             };
             var iframe = window.mifr;
             if (!iframe) {

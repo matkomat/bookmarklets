@@ -308,8 +308,8 @@
                     if (text.match(/_/) == '_') return;
                     setTimeout(function() {
                         document.querySelector('button.mu-button').click()
-                    }, 10000);
-                }, 40000);
+                    }, 4000);
+                }, 2000);
             };
             var iframe = window.mifr;
             if (!iframe) {
@@ -326,8 +326,8 @@
             setTimeout(function() {
                 iframe.contentWindow.scrollTo(0, 1700);
                 fill(iframe.contentWindow.document);
-            }, 2000);
-        }, 20000);
+            }, 3000);
+        }, 40000);
     };
     script.src = "https://hcesar.github.io/captcha-solver-js/gocr.js";
     document.head.appendChild(script)

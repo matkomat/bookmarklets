@@ -12,7 +12,7 @@
     zipcode: '10410',
     city: 'Velika Gorica',
     countryIndex: 1,
-}/*,
+},
 {
     salutation: 2, // 2-boy, 1-girl
     firstname: 'Danijel',
@@ -148,7 +148,7 @@
     city: 'Cavtat',
     countryIndex: 1,
 
-}*/,
+},
 {
     salutation: 1, // 2-boy, 1-girl
     firstname: 'Lucija',
@@ -309,7 +309,7 @@
                     setTimeout(function() {
                         document.querySelector('button.mu-button').click()
                     }, 4000);
-                }, 2000);
+                }, 20000);
             };
             var iframe = window.mifr;
             if (!iframe) {

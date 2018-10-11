@@ -135,7 +135,7 @@
     city: 'Jastrebarsko',
     countryIndex: 1,
 
-},
+}/*,
 {
     salutation: 1, // 2-boy, 1-girl
     firstname: 'Ana',
@@ -148,7 +148,7 @@
     city: 'Cavtat',
     countryIndex: 1,
 
-},
+}*/,
 {
     salutation: 1, // 2-boy, 1-girl
     firstname: 'Lucija',

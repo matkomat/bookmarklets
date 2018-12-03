@@ -131,8 +131,8 @@
                     el.dispatchEvent(new Event('input'));
                     if (text.match(/_/) == '_') return;
                     setTimeout(function() {
-                        //document.querySelector('button.mu-button').click()
-                        alert('click');
+                        document.querySelector('button.mu-button').click()
+                        //alert('click');
                     }, 4000);
                 }, 2000);
             };

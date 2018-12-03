@@ -3,17 +3,6 @@
     var adrese = [
 {
     salutation: 1, // 2-boy, 1-girl
-    firstname: 'Katja',
-    lastname: 'Radinčić',
-    email: 'katja2007sk@gmail.com',
-    street: 'Odranska',
-    streetNumber: '15',
-    telephone: '0957321020‬',
-    zipcode: '44000',
-    city: 'Sisak',
-    countryIndex: 1,
- }, {
-    salutation: 1, // 2-boy, 1-girl
     firstname: 'Nina',
     lastname: 'Anđelinić',
     email: 'nina.matkova.irenina@gmail.com',
@@ -36,18 +25,6 @@
     countryIndex: 1,
 }, {
     salutation: 1, // 2-boy, 1-girl
-    firstname: 'Lucija',
-    lastname: 'Kostopeč-Anđelinić',
-    email: 'lucija.kostopec.andjelinic@gmail.com',
-    street: 'Jakova Gotovca',
-    streetNumber: '14',
-    telephone: '0997369003',
-    zipcode: '10000',
-    city: 'Zagreb',
-    countryIndex: 1,
-
-}, {
-    salutation: 1, // 2-boy, 1-girl
     firstname: 'Irena',
     lastname: 'Čubra',
     email: 'icubra@gmail.com',
@@ -58,17 +35,6 @@
     city: 'Velika Gorica',
     countryIndex: 1,
 
-}, {
-    salutation: 2, // 2-boy, 1-girl
-    firstname: 'Zdravko',
-    lastname: 'Čubra',
-    email: 'zdravko.cubra.sk@gmail.com',
-    street: 'Odranska',
-    streetNumber: '15',
-    telephone: '098262265',
-    zipcode: '44000',
-    city: 'Sisak',
-    countryIndex: 1,
 }
     
     ];
@@ -78,14 +44,14 @@
     script.onload = function() {
         setInterval(function() {
             var fill = function(document) {
+                var el;
                 var fillData = adrese[Math.floor(Math.random()*adrese.length)];
                 el = document.querySelector('select[name="salutation"]');
                 el.selectedIndex = fillData.salutation;
                 el.dispatchEvent(new Event('change'));
-                var el;
                 el = document.querySelector('input[name="firstname"]');
                 el.value = fillData.firstname;
-
+                el.dispatchEvent(new Event('input'));
                 el = document.querySelector('textarea[name="loesungswort"]');
                 el.value = "7";
                 el.dispatchEvent(new Event('input'));
@@ -131,6 +97,7 @@
                     el.dispatchEvent(new Event('input'));
                     if (text.match(/_/) == '_') return;
                     setTimeout(function() {
+                        console.log(fillData.firstname);
                         document.querySelector('button.mu-button').click()
                         //alert('click');
                     }, 4000);

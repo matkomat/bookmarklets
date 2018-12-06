@@ -24,16 +24,17 @@
     city: 'Sisak',
     countryIndex: 1,
 }, {
-    salutation: 2, // 2-boy, 1-girl
-    firstname: 'Matko',
-    lastname: 'Anđelinić',
-    email: 'matko.andjelinic@gmail.com',
-    street: 'Fausta Vrančića',
-    streetNumber: '12',
-    telephone: '098341584',
-    zipcode: '10410',
-    city: 'Velika Gorica',
+    salutation: 1, // 2-boy, 1-girl
+    firstname: 'Lucija',
+    lastname: 'Kostopeč-Anđelinić',
+    email: 'lucija.kostopec.andjelinic@gmail.com',
+    street: 'Jakova Gotovca',
+    streetNumber: '14',
+    telephone: '0997369003',
+    zipcode: '10000',
+    city: 'Zagreb',
     countryIndex: 1,
+
 }
     
     ];

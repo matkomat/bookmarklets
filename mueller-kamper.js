@@ -52,7 +52,7 @@
                 el.value = fillData.firstname;
                 el.dispatchEvent(new Event('input'));
                 el = document.querySelector('textarea[name="loesungswort"]');
-                el.value = "7";
+                el.value = "10";
                 el.dispatchEvent(new Event('input'));
                 el = document.querySelector('input[name="lastname"]');
                 el.value = fillData.lastname;

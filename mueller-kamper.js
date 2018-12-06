@@ -1,18 +1,29 @@
 (function() {
     
     var adrese = [
-{
-    salutation: 1, // 2-boy, 1-girl
-    firstname: 'Nina',
-    lastname: 'Anđelinić',
-    email: 'nina.matkova.irenina@gmail.com',
-    street: 'Fausta Vrančića',
-    streetNumber: '12',
-    telephone: '0981883755‬',
-    zipcode: '10410',
-    city: 'Velika Gorica',
+ {
+    salutation: 2, // 2-boy, 1-girl
+    firstname: 'Branko',
+    lastname: 'Radinčić',
+    email: 'bradincic@gmail.com',
+    street: 'Odranska',
+    streetNumber: '15',
+    telephone: '0955035250',
+    zipcode: '44000',
+    city: 'Sisak',
     countryIndex: 1,
- }, {
+}, {
+    salutation: 1, // 2-boy, 1-girl
+    firstname: 'Silvija',
+    lastname: 'Čubra',
+    email: 'sicubra@gmail.com',
+    street: 'Odranska',
+    streetNumber: '15',
+    telephone: '0955018585‬',
+    zipcode: '44000',
+    city: 'Sisak',
+    countryIndex: 1,
+}, {
     salutation: 2, // 2-boy, 1-girl
     firstname: 'Matko',
     lastname: 'Anđelinić',
@@ -23,18 +34,6 @@
     zipcode: '10410',
     city: 'Velika Gorica',
     countryIndex: 1,
-}, {
-    salutation: 1, // 2-boy, 1-girl
-    firstname: 'Irena',
-    lastname: 'Čubra',
-    email: 'icubra@gmail.com',
-    street: 'Fausta Vrančića',
-    streetNumber: '12',
-    telephone: '0915654961',
-    zipcode: '10410',
-    city: 'Velika Gorica',
-    countryIndex: 1,
-
 }
     
     ];
